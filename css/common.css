@@ -1,0 +1,16 @@
+body { background:#fff; }
+header { position:fixed; display:block; width:100%; top:0; left:0; text-align:center; }
+
+.wrap { max-width:1000px; margin:0 auto; position:relative; }
+#gnb { z-index:100; background:rgba(100,90,10,.4); }
+#gnb .dep1 { font-size:0; }
+#gnb .dep1 > li { color:#fff; display:inline-block; width:160px; text-align:center; position:relative; }
+#gnb .dep1 > li > a { padding:10px 0; width:100%; display:block; font-size:16px; }
+#gnb .dep1 > li > hr { position:absolute; width:0; height:3px; content:''; background:#fff; bottom:0; left:50%; border:0; }
+#gnb .dep1 .dep2 { position:absolute; top:38px; left:0; display:block; width:160px; padding-top:10px; overflow:hidden; height:0; z-index:100; }
+#gnb .dep1 .dep2 > li > a { display:block; padding:12px 0; transition:0.1s all ease-in-out; font-size:16px; color:#75522b; }
+#gnb .dep1 .dep2 > li > a:hover { background:#fff; }
+
+#menubg { position:absolute; top:128px; left:0; background:rgba(100,90,10,.2); width:100%; display:block; }
+#logo { height:90px; display:inline-block; padding:15px; }
+#logo img { height:100%; width:auto; }
